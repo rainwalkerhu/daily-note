@@ -1,0 +1,27 @@
+{
+  "name": "daily-note",
+  "version": "1.0.0",
+  "description": "live && learn",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainwalkerhu/daily-note.git"
+  },
+  "author": "rainwalkerhu",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.1.0",
+    "vuepress-plugin-autobar": "github:rainwalkerhu/vuepress-bar",
+    "vuepress-plugin-permalink-pinyin": "^1.0.0",
+    "vuepress-plugin-rpurl": "github:rainwalkerhu/vuepress-plugin-rpurl"
+  },
+  "bugs": {
+    "url": "https://github.com/rainwalkerhu/daily-note/issues"
+  },
+  "homepage": "https://github.com/rainwalkerhu/daily-note#readme"
+}
